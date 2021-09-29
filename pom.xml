@@ -35,7 +35,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<applicationName>mule-automation-demo</applicationName>
+						<applicationName>${cloudhub.application}</applicationName>
 						<environment>${anypoint.environment}</environment>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
