@@ -12,7 +12,7 @@ pipeline {
             bat 'mvn test'
          }
       }
-	  	  stage('Deploy Cloudhub') {
+	  	  stage('Deploy to Sandbox') {
          steps {
             bat 'mvn clean deploy -DmuleDeploy -Dcloudhub.username=RS-Training -Dcloudhub.password=Training@123'
          }
