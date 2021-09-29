@@ -14,7 +14,7 @@ pipeline {
       }
 	  	  stage('Deploy Cloudhub') {
          steps {
-            bat 'mvn clean deploy -DmuleDeploy -Dcloudhub.username=Training-RS -Dcloudhub.password=Cappy#123'
+            bat 'mvn clean deploy -DmuleDeploy -Dcloudhub.username=RS-Training -Dcloudhub.password=Training@123'
          }
       }
    }
