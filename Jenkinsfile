@@ -14,7 +14,7 @@ pipeline {
       }
 	  	  stage('Deploy to Sandbox') {
          steps {
-            bat 'mvn clean deploy -DmuleDeploy -Dcloudhub.username=RS-Training -Dcloudhub.password=Training@123'
+            bat 'mvn clean deploy -DmuleDeploy -Dcloudhub.username=RS-Training -Dcloudhub.password=Training@123 -Danypoint.environment=Sandbox'
          }
       }
    }
