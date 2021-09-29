@@ -1,1 +1,1 @@
-# mule-automation-demo - This is demo
+# mule-automation-demo - This is demo for CI/CD
